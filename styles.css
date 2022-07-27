@@ -1,0 +1,36 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: "Lato", "sans-serif";
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    font-size: 2rem;
+    margin-top: 50px;
+    padding: 2rem;
+}
+.coming-soon{
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+.coming-soon h3{
+    padding: 0.5em;
+}
+.countdown{
+    display: flex;
+    gap: 2em;  
+}
+.Days, .Hours, .Minutes, .Seconds {
+
+}
+ 
